@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Year</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Italianno&family=Playfair+Display:ital,wght@1,400;1,600&family=Montserrat:wght@300;400;600&display=swap">
+</head>
+<body>
+
+<div class="main-horizontal-slider">
+
+    <section id="sec-your-songs" class="slide-page">
+        <button type="button" class="nav-arrow nav-next" onclick="goToSlide('sec-12-months')">›</button>
+
+        <div class="one-year-container"> 
+            <header class="top-nav">
+                <div class="nav-titles">
+                    <span class="nav-tag">HOME</span>
+                    <span class="nav-tag">ANNIVERSARY GIRL</span>
+                    <span class="nav-tag">WHITE RABBIT</span>
+                    <span class="nav-tag active">SONGS</span>
+                </div>
+                <div class="user-profile">
+                    <div class="user-text">
+                        <span class="user-name">MIA SOSA</span>
+                        <span class="user-date">OCTOBER 3, 2026</span>
+                    </div>
+                    <img src="img/sunoo icon.jpg" alt="perfil" class="profile-pic">
+                </div>
+            </header>
+
+            <div class="main-content">
+                <div class="vinyl-wrapper">
+                    <img src="img/vinyl.png" alt="vinilo" class="vinyl-img">
+                    <div class="player-controls">
+                        <button type="button" class="control-btn play-btn">▶</button>
+                        <button type="button" class="control-btn pause-btn">❚❚</button>
+                    </div>
+                </div> 
+                <div class="your-songs-center">
+                    <h1 class="main-tittle">YOUR SONGS!</h1>
+                    <div class="songs-list">
+                        <div class="song-item">
+                            <a href="https://open.spotify.com/intl-es/track/64eXOaYsua0UicEvrZAW1E?si=3a28ec58c3904549" target="_blank" class="song-card">
+                                <img src="img/Alejandro Fernandez – Me Estoy Enamorando _ Sony Records Cd 1999.jpg" alt="Alejandro Fernandez" class="song-cover">
+                                <div class="song-details">
+                                    <h2>En el jardin</h2>
+                                    <p>Alejandro F, Gloria E.</p>
+                                </div>
+                            </a>
+                            <p class="song-quote">
+                              "EN EL JARDIN DONDE REINO LA SOLEDAD, NACIO LA FLOR QUE HACE FELIZ MI CORAZON."
+                            </p>
+                        </div>
+
+                        <div class="song-item">
+                            <a href="https://open.spotify.com/intl-es/track/7BlBVFwvbWvcwNcUarQmjk?si=349099dc6a274234" target="_blank" class="song-card">
+                                <img src="img/Rosalia x Ozuna.jpg" alt="Rosalia, Ozuna" class="song-cover">
+                                <div class="song-details">
+                                    <h2>YO x TI, TU x MI</h2>
+                                    <p>Rosalia, Ozuna</p>
+                                </div>
+                            </a>
+                            <p class="song-quote">
+                                "CONTIGO APUESTO TO AL NUMERO SIETE, SI ME CAIGO QUE TU ME SUJETE, YO POR TI, TU POR MI, QUE ME PONGAN LOS GRILLETE."
+                            </p>
+                        </div>
+
+                        <div class="song-item">
+                            <a href="https://open.spotify.com/intl-es/track/0Rerqpf0rXnz6ndP7ytQ6O?si=e8c5be57a25e4e59" target="_blank" class="song-card">
+                                <img src="img/Rauw Alejandro.jpg" alt="Rauw Alejandro" class="song-cover">
+                                <div class="song-details">
+                                    <h2>Khe?</h2>
+                                    <p>Rauw Alejandro, Romeo Santos</p>
+                                </div>
+                            </a>
+                            <p class="song-quote">
+                                "ME DICES QUE PA QUE, Y YO TE DIGO QUE, SI NO SOMOS NADA, ENTONCES A QUE ESTAMOS JUGANDO"
+                            </p>
+                        </div>
+
+                        <div class="song-item">
+                            <a href="https://open.spotify.com/intl-es/track/3Fse9qXqMNey4TL5mLy8IF?si=dd115ecf90f44abb" target="_blank" class="song-card">
+                                <img src="img/𝐀𝐄𝐒𝐏𝐀 (에스파) - ‘𝐊𝐈𝐒𝐒 𝐍 𝐓𝐄𝐋𝐋’ 𝐀𝐋𝐁𝐔𝐌 𝐂𝐎𝐕𝐄𝐑.jpg" alt="Aespa" class="song-cover">
+                                <div class="song-details">
+                                    <h2>KISS N TELL</h2>
+                                    <p>AESPA</p>
+                                </div>
+                            </a>
+                            <p class="song-quote">
+                                "NO TE LO GUARDES, NO ESTES SOLA, NO ES FACIL, EL JUEGO DEL AMOR, LAS PREOCUPACIONES DEL DIA A DIA Y DEL FUTURO."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="bottom-decor">
+                <div class="search-bar">
+                    <span class="search-icon">🔍</span>
+                    <span class="search-text">These songs reminds me of you!</span>
+                    <button type="button" class="close-btn">X</button>
+                </div>
+                <img src="img/flower.png" alt="Flor decorativa" class="flower-img">
+            </footer>
+        </div>
+    </section>
+
+    <section id="sec-12-months" class="slide-page">
+        <button type="button" class="nav-arrow nav-prev" onclick="goToSlide('sec-your-songs')">‹</button>
+        <button type="button" class="nav-arrow nav-next" onclick="goToSlide('sec-Aleska')">›</button>
+
+        <div class="months-main-wrapper">
+            <div class="calendar-wrapper">
+                <div class="bg-photo photo-left">
+                    <img src="img/Aleska1.jpeg" alt="foto 1">
+                </div>
+                <div class="bg-photo photo-right">
+                    <img src="img/Aleska2.jpeg" alt="foto 2">
+                </div>
+                <div class="calendar-card">
+                    <div class="calendar-header">
+                        <span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span>
+                    </div>
+                    <div class="calendar-days">
+                        <span class="empty"></span><span class="empty"></span><span class="empty"></span>
+                        <span>01</span><span>02</span><span class="highlight-day">03</span><span>04</span><span>05</span>
+                        <span>06</span><span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span>
+                        <span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span>
+                        <span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span>
+                        <span>27</span><span>28</span><span>29</span><span>30</span><span>31</span>
+                    </div>
+                </div>
+            </div>
+            <div class="text-side">
+                <span class="small-tag tag-top">krzy</span>
+                <h1 class="anniversary-tittle">Happy <br><i>12 Months!</i></h1>
+                <span class="small-tag tag-bottom">friends day</span>
+            </div>
+            <div class="stamp-side">
+                <div class="stamp-card">
+                    <img src="img/Aleska3.jpeg" alt="foto principal">
+                </div>
+                <span class="small-tag tag-love">love youuu</span>
+                <span class="small-tag tag-girl">pretty girl!</span>
+            </div>
+        </div>
+    </section>
+        
+    <section id="sec-Aleska" class="slide-page">
+        <button type="button" class="nav-arrow nav-prev" onclick="goToSlide('sec-12-months')">‹</button>
+        <button type="button" class="nav-arrow nav-next" onclick="goToSlide('sec-cherie')">›</button>
+
+        <div class="Aleska-main-wrapper">
+            <div class="Aleska-banner">
+                <img src="img/rosa-left (2).png" alt="rosa izquierda" class="rose-stem rose-stem-left">
+                <img src="img/rosa-left (2) - copia.png" alt="rosa derecha" class="rose-stem rose-stem-right">
+                <div class="Aleska-title-box">
+                    <span class="sub-tag tag-top-left">PEACE <br> LOVE & BEAUTY</span>
+                    <h1 class="Aleska-title-text">ALESKA</h1>
+                    <span class="sub-tag tag-top-right">SOFIA</span>
+                </div>
+                <div class="plus-circle-badge"></div>
+            </div>
+            <div class="Aleska-middle-text">
+                <div class="text-block text-block-center">
+                    <h2 class="script-title-large">Best Friend</h2>
+                    <p class="body-text text-center">
+                        Someone who will stand up for you in the times when you need it most, keep your secrets close, and someone you can trust with your life.
+                    </p>
+                </div>
+                <div class="text-block text-block-center">
+                    <h2 class="script-title-large">Soul Sister</h2>
+                </div>
+                <div class="text-block">
+                    <p class="body-text text-right">
+                        Someone that comes into your life and changes everything, will cheer you up when you are down, laugh with you until your stomach hurts and make you feel at home when you are far away.
+                    </p>
+                </div>
+            </div>
+            <div class="Aleska-photos-strip">
+                <div class="photos-horizontal-row">
+                     <div class="photo-card-box"><img src="img/sakura.1.jpg" alt="foto 1"></div>
+                     <div class="photo-card-box"><img src="img/paisaje.2.jpg" alt="foto 2"></div>
+                     <div class="photo-card-box"><img src="img/Mina.3.jpg" alt="foto 3"></div>
+                </div>
+            </div>
+            <div class="Aleska-flowers-section">
+                <h2 class="flower-main-title">More than a Flower</h2>
+                <div class="flower-labels-row">
+                    <span>special</span>
+                    <span>words</span>
+                </div>
+            </div>
+            <div class="flowers-grid-row">
+                <div class="flower-interactive-card">
+                    <div class="circle-flower-bg">
+                        <img src="img/flower1.png" alt="Flor 1">
+                    </div>
+                    <div class="flower-hover-msg">
+                        <h3>Eyes</h3>
+                        <p>"Si yo pudiera darte una cosa en la vida, me gustaria darte la capacidad de verte a ti misma a traves de mis ojos. Solo entonces te darias cuenta de lo especial que eres para mi."</p>
+                    </div>
+                </div>
+                <div class="flower-interactive-card">
+                    <div class="circle-flower-bg">
+                        <img src="img/flower2.png" alt="Flor 2">
+                    </div>
+                    <div class="flower-hover-msg">
+                        <h3>¿Renunciar?</h3>
+                        <p>"Es una locura odiar a todas las rosas solo porque una te pincho. Renunciar a todos tus sueños porque uno de ellos no se realizo."</p>
+                    </div>
+                </div>
+                <div class="flower-interactive-card">
+                    <div class="circle-flower-bg">
+                        <img src="img/flower3.png" alt="Flor 3">
+                    </div>
+                    <div class="flower-hover-msg">
+                        <h3>Never Forget It</h3>
+                        <p>"No dejes que la actitud de otras personas te haga dudar de lo increible que eres, mereces cosas bonitas, nunca lo olvides."</p>
+                    </div>
+                </div>
+            </div>
+            <span class="footnote-text">Si lees esto, -1000 de aura.</span>
+        </div>
+    </section>
+
+    <section id="sec-cherie" class="slide-page">
+        <button type="button" class="nav-arrow nav-prev" onclick="goToSlide('sec-Aleska')">‹</button>
+        <button type="button" class="nav-arrow nav-next" onclick="goToSlide('sec-newyear')">›</button>
+
+        <div class="cherie-main-wrapper">
+            <div class="cherie-top-nav">
+                <div class="sparkle-icon">✦</div>
+                <div class="cherie-nav-links">
+                    <span>home</span>
+                    <span>gallery</span>
+                    <span class="active-link">collage</span>
+                    <span>spotify</span>
+                    <span>pin</span>
+                </div>
+            </div>
+            <div class="cherie-header-title">
+                <h1 class="cherie-title">Chérie</h1>
+                <p class="cherie-subtitle">It smells like vanilla</p>
+            </div>
+
+            <div class="heart-collage-container">
+                <div class="heart-row row-1">
+                    <div class="heart-photo"><img src="img/heart1.jpeg" alt="Foto 1"></div>
+                    <div class="heart-photo"><img src="img/heart2.jpeg" alt="Foto 2"></div>
+                </div>
+
+                <div class="heart-row row-2">
+                    <div class="heart-photo"><img src="img/heart3.jpeg" alt="Foto 3"></div>
+                    <div class="heart-photo"><img src="img/heart4.jpeg" alt="Foto 4"></div>
+                    <div class="heart-photo"><img src="img/heart5.jpeg" alt="Foto 5"></div>
+                </div>
+
+                <div class="heart-row row-3">
+                    <div class="heart-photo"><img src="img/heart6.jpeg" alt="Foto 6"></div>
+                    <div class="heart-photo"><img src="img/heart7.jpeg" alt="Foto 7"></div>
+                    <div class="heart-photo"><img src="img/heart8.jpeg" alt="Foto 8"></div>
+                </div>
+
+                <div class="heart-row row-4">
+                    <div class="heart-photo"><img src="img/heart9.jpeg" alt="Foto 9"></div>
+                    <div class="heart-photo"><img src="img/heart10.jpeg" alt="Foto 10"></div>
+                </div>
+
+                <div class="heart-row row-5">
+                    <div class="heart-photo"><img src="img/heart11.jpeg" alt="Foto 11"></div>
+                </div>
+            </div>
+
+            <div class="cherie-footer-controls">
+                <audio id="audio-xo" src="audio/ENHYPEN 'XO (Only If You Say Yes)' Violin Version (Short) Audio.mp3"></audio>
+                <div class="song-info">
+                    <div class="song-card-btn" onclick="togglePlayMusic()">
+                        <div class="song-info">
+                            <span class="song-title">XO - Instrumental.ver</span>
+                            <span class="song-artist">— Enhypen</span>
+                        </div>
+                        <div id="play-icon" class="play-icon-btn">▶</div>
+                    </div>
+                    <span class="made-in-heaven">I dedicate my favorite song to you</span>
+                    <div class="ig-tag-box">
+                        <span>Mia love her bff</span>
+                        <div class="dots-decor">
+                            <span class="dot pink-dot"></span>
+                            <span class="dot grey-dot"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sec-newyear" class="slide-page">
+        <button type="button" class="nav-arrow nav-prev" onclick="goToSlide('sec-cherie')">‹</button>
+        <button type="button" class="nav-arrow nav-next" onclick="goToSlide('sec-ningselle')">›</button>
+
+        <div class="ny-main-wrapper">
+            <div class="ny-header">
+                <div class="floral-detail">❀</div>
+                <h1 class="ny-title">My Special Person</h1>
+                <p class="ny-subtitle">By MGS</p>
+            </div>
+
+            <div class="ny-card-container card-type-1">
+                <div class="ny-card-photo">
+                    <img src="img/ny-photo1.jpg" alt="Mina">
+                </div>
+                <div class="ny-card-info">
+                    <div class="flower-badge">✿</div>
+                    <h2 class="card-heading">Love You <br><i>FOREVER</i></h2>
+                    <p class="card-desc">
+                        Te quiero de manera inmensa, y creo que lo sabes. Siempre estas presente cuando pienso en momentos felices, porque eres la persona que mas feliz me hace. No se si yo te hago feliz o te soy indiferente, pero espero que a traves de estos tontos detalles logres sentir todo mi cariño.
+                        Muchas gracias por estar conmigo y apoyarme, prometo estar para ti siempre, no lo doubts.
+                    </p>
+                    <button type="button" class="ny-btn btn-outline">Pretty Girl &gt;</button>
+                </div>
+            </div>
+
+            <div class="ny-card-container card-type-2">
+                <div class="plus-icon-badge">+</div>
+                <div class="ny-card-info align-right-info">
+                    <h3 class="script-card-sub">Pinky Promise</h3>
+                    <span class="small-subtext">I Always keep my Promises.</span>
+                    <p class="card-desc">
+                        Prometi darte regalos cada mes, no cambiar, quedarme contigo para siempre y hacerte feliz. Hasta ahora, creo que cumpli todas. Por un año te regale cosas cada mes, y este ultimo, el mas especial, decidi que fuera una pagina web, bastante extraño, pero espero que realmente te guste, a mi me parece que no cumple las expectativas, lo lamento si no te emociona.
+                    </p>
+                    <button type="button" class="ny-btn btn-pink">&lt; I Promise...</button>
+                </div>
+                <div class="ny-card-photo">
+                    <img src="img/ny-photo2 (2).jpg" alt="Mina, Momo">
+                </div>
+            </div>
+
+            <div class="ny-year-footer">
+                <div class="year-text-col">
+                    <h4>This Year...</h4>
+                    <p>Este año fue el mas tranquilo y feliz que tuve, todo gracias a ustedes, gracias a vos, que estuviste para mi, me consolaste, e intentaste esforzarte para mejorar, de hecho yo tambien deberia hacerlo. Quiero mejorar para que confies en mi, para que nunca tengas miedo de decirme algo, para que seas capaz de contar tus dolencias sin verguenza, tu confianza es lo que mas cuido (si es que ya la tengo), pero en serio, siempre que me necesites, acude a mi, asi como yo a ti. Gracias por regalarme un año como este. Te quiero.</p>
+                </div>
+                <div class="year-display-col">
+                    <div class="year-item-card">
+                        <img src="img/ny-photo3.jpg" alt="Mina">
+                    </div>
+                    <div class="color-swatch-card"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sec-ningselle" class="slide-page">
+        <button type="button" class="nav-arrow nav-prev" onclick="goToSlide('sec-newyear')">‹</button>
+        <button type="button" class="nav-arrow nav-next" onclick="goToSlide('sec-guidelines')">›</button>
+
+        <div class="ningselle-main-wrapper">
+            <div class="pets-col-left">
+                <h1 class="pets-main-title">Smell like<br>love?</h1>
+                <div class="ningselle-phone-card">
+                    <div class="arrow-indicator nav-up">∧</div>
+                    <span class="step-num num-01">01</span>
+                    <div class="ningsellle-card-item">
+                        <div class="ship-img-box">
+                            <img src="img/ningselle1.jpg" alt="Ningselle">
+                        </div>
+                        <h3 class="ship-name">Ningselle</h3>
+                        <p class="ship-desc">No permitas que tus miedos ocupen el lugar de tus sueños.</p>
+                        <span class="ship-subnote">Sigue soñando.</span>
+                    </div>
+
+                    <span class="step-num num-02">02</span>
+                    <div class="ningselle-card-item highlight-card">
+                        <div class="phone-top-bar">
+                            <span>&lt;</span>
+                            <div class="plus-mini-btn">+</div>
+                            <span>&gt;</span>
+                        </div>
+                        <div class="ship-img-box">
+                            <img src="img/ningselle2.jpg" alt="Ningselle">
+                        </div>
+                        <h3 class="person-name">My sister</h3>
+                        <span class="pet-tagline">although not of blood</span>
+                        <p class="pet-desc">
+                            Mi hermanita pero no de sangre, a quien le cuento todo y le comparto todo. No hay algo que no sepas de mi, no hay cosa que yo te mesquine, por eso creo que te siento como mi hermana.
+                        </p>
+                    </div>
+
+                    <div class="person-card-item">
+                        <div class="ship-img-box">
+                            <img src="img/ningselle3.jpg" alt="Ningselle">
+                        </div>
+                        <h3 class="special-words">Love you</h3>
+                    </div>
+
+                    <span class="step-num num-03">03</span>
+                    <div class="arrow-indicator nav-down">∨</div>
+                </div>
+                <div class="ningselle-brand-tag">
+                    FOREVER <br> AND EVER
+                </div>
+            </div>
+
+            <div class="ningselle-col-right">
+                <div class="user-header-profile">
+                    <div class="user-info-text">
+                        <span class="user-name">Mia Gabrielle</span>
+                        <span class="user-handle">@M.Gabrielle.S</span>
+                    </div>
+                    <div class="user-avatar-box">
+                        <img src="img/sunoo icon.jpg" alt="Avatar">
+                    </div>
+                </div>
+
+                <div class="ribbon-banner">
+                    <span>Strawberry & Chocolate</span>
+                </div>
+
+                <div class="arrow-step-icon">&gt;</div>
+
+                <div class="featured-photo-card">
+                    <img src="img/ningning.jpg" alt="Foto destacada">
+                    <div class="quote-tag-box">
+                        <span class="quote-symbol">“</span>
+                        <div class="quote-tag-text">
+                            <strong>You are so smart, wow</strong>
+                            <small>@ningselle</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kitty-block">
+                    <div class="kitty-text">
+                        <h2 class="kitty-title">This is us</h2>
+                        <p class="kitty-sub">Two cute kittens</p>
+                    </div>
+                    <div class="kitty-photo-box">
+                        <img src="img/kitty.png" alt="Gatitos">
+                    </div>
+                </div>
+                <p class="cute-kitty-text">This is so dumb, sorry bro</p>
+
+                <div class="bottom-photo-wrapper">
+                    <span class="script-yes-text">Yes</span>
+                    <div class="bottom-photo-card">
+                        <img src="img/Giselle.jpg" alt="Giselle">
+                        <div class="heart-badge-mini">♥</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sec-guidelines" class="slide-page">
+        <button type="button" class="nav-arrow nav-prev" onclick="goToSlide('sec-ningselle')">‹</button>
+        <button type="button" class="nav-arrow nav-next" onclick="goToSlide('sec-lovespace')">›</button>
+
+        <div class="guidelines-main-wrapper">
+            <div class="guide-card-container">
+                <div class="guide-block profile-block">
+                    <div class="profile-banner">
+                        <img src="img/flores-sakura.gif" alt="Banner animado">
+                        <div class="profile-avatar-circle">
+                            <img src="img/haruhi-icon.jpg" alt="Avatar">
+                        </div>
+                    </div>
+                    <div class="profile-info-content">
+                        <div class="profile-titles">
+                            <h2 class="profile-display-name">Mia <span class="profile-handle">@M.Gabrielle.S</span></h2>
+                            <p class="profile-subtext">Everything happens for a reason</p>
+                        </div>
+                        <div class="profile-input-row">
+                            <div class="profile-status-box">¿Que hago si tengo la mejor amiga del mundo?</div>
+                            <button type="button" class="profile-enter-btn">enter</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="guide-block guidelines-block">
+                    <div class="block-header">
+                        <span class="block-title">— xoxo</span>
+                        <span class="block-nav">&lt; love</span>
+                    </div>
+                    <div class="block-image-box main-guide-img">
+                        <img src="img/banner-sakura.jpg" alt="flor sakura">
+                    </div>
+                    <div class="block-text-box">
+                        <p>Quiero que sepas que <strong>te admiro</strong> muchisimo, eres alguien tan fuerte, increible, bonita, atenta e independiente, eres alguien en quien se puede confiar plenamente, por eso te aprecio tanto, porque luego de tantas traiciones llegaste vos a hacerme sentir tranquila, sono muy cringe quizas, pero lo dije en serio. Te admiro.</p>
+                    </div>
+                </div>
+
+                <div class="guide-two-columns">
+                    <div class="guide-block sub-col-block">
+                        <div class="block-header">
+                            <span class="block-title">— First sight</span>
+                        </div>
+                        <div class="block-image-box sub-img-box">
+                            <img src="img/marin.gif" alt="Banner animado">
+                        </div>
+                        <div class="block-text-box">
+                            <p>La primera vez que te vi pense que te caia mal, si, pero sobre todo me encantaba lo bonita y elegante que te veias, y desde que te conoci me encantaste muchisimo mas, porque eras inteligente, conocedora, fuerte, y con sentimientos tan puros y bonitos que no pude evitar desear ser tu amiga por siempre.</p>
+                        </div>
+                    </div>
+
+                    <div class="guide-block sub-col-block">
+                        <div class="block-header">
+                            <span class="block-title">— Wish</span>
+                        </div>
+                        <div class="block-image-box sub-img-box">
+                            <img src="img/lesserafim easy.jpg" alt="Le sserafim">
+                        </div>
+                        <div class="block-text-box">
+                            <p>Cada vez que tengo la oportunidad de pedir un deseo, siempre he deseado sacar buenas notas, aprobar todo, siempre ese fue mi deseo en cada cumpleaños, en cada estrella fugaz, o en cada diente de leon al soplar, pero desde hace varios meses, empece a desear que nunca nos separemos, que podamos estar juntas, y que siempre estes bien.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="guide-footer-copyright">
+                    © mgs. Espero que mi deseo se cumpla.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sec-lovespace" class="slide-page">
+        <button type="button" class="nav-arrow nav-prev" onclick="goToSlide('sec-guidelines')">‹</button>
+
+        <div class="lovespace-main-wrapper">
+            <div class="lovespace-card-container">
+                <div class="lovespace-header">
+                    <h1 class="lovespace-title">lovespace.′</h1>
+                    <p class="lovespace-credits">made only for sak</p>
+                </div>
+
+                <div class="lovespace-banner-box">
+                    <img src="img/lovespace-banner.gif" alt="Lovespace Banner">
+                    <div class="lovespace-banner-overlay">
+                        <h2>introducing <br>words ! ✿</h2>
+                        <p>user @mia's lovespace ! &lt;3</p>
+                    </div>
+                </div>
+
+                <div class="lovespace-nav-tabs">
+                    <button type="button" class="ls-tab-btn active-tab">profile</button>
+                    <button type="button" class="ls-tab-btn">guidelines</button>
+                    <button type="button" class="ls-tab-btn">interests</button>
+                    <button type="button" class="ls-tab-btn">home</button>
+                </div>
+
+                <div class="lovespace-block know-me-block">
+                    <div class="ls-profile-left">
+                        <div class="ls-photo-frame">
+                            <img src="img/lovespace-profile.jpg" alt="Profile Photo">
+                        </div>
+                        <h3 class="ls-name-title">sunsun — ✦</h3>
+                        <p class="ls-meta-info">our • original • ship</p>
+                    </div>
+
+                    <div class="ls-profile-right">
+                        <h2 class="ls-block-heading">last words... ✦</h2>
+
+                        <div class="ls-info-group">
+                            <p><strong>Te quiero</strong>, Hikaruncita. Siento que quizas este regalo es un tanto basico y vacio, quizas no te emociones mucho, es por eso que agregue una seccion mas, una para exclusivamente escribir para ti. Quiero decirte gracias, gracias por hacer mi vida mas plena, por darme seguridad, por hacer que tenga mas confianza en mi y pueda expresarme con libertad, por hacerme saber que siempre podre acudir a vos cuanto necesite, por estar en las buenas y malas conmigo, por permitirme la entrada a tu hogar, por esforzarte por mi aun cuando te cuesta. Gracias por absolutamente todo lo que me has brindado en este año de amistad. Te amo.</p>
+                        </div>
+
+                        <div class="ls-info-group">
+                            <p><strong>El tiempo</strong> ha pasado rapido. Te he dicho tantas cosas, escrito cartas largas, que ahora ni siquiera puedo pensar como aun tengo cosas para decirte, tambien te he contado un monton de cosas, experimentamos ciertas distancias, indiferencias o falta de comunicacion, pero lo importante es que, por mi parte, te quiero tanto como las primeras semanas de amistad, cuando me emocionaba por ir al colegio solo por estar contigo, cuando queria hablarte siempre, o cuando buscaba compartir cosas (pfp, desc, fondo, pulseras, hebillas, etc), porque por fin sentia que alguien me queria tanto, sentia que por fin la persona que tanto anhele llego a mi vida.</p>
+                        </div>
+
+                        <div class="ls-info-group no-border">
+                            <p><strong>Emocion</strong>, eso es lo que siento, emocion por mandarte esto, pues hoy es Domingo, 27 de septiembre, exactamente las 1:11, sin mentir, porque cumplimos año, porque eso significa que tambien va a finalizar un año y empezar otro, el cual quiero compartir contigo, aunque tengo un poco de miedo por el futuro, pero si en ese futuro estas vos, entonces me siento tranquila, en serio. Feliz primer año de amistad, xoxo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lovespace-block notes-block">
+                    <h3 class="ls-notes-heading">notes ✦</h3>
+                    <p class="ls-notes-text">
+                        <em>(1)</em> I love you so much! <br>
+                        <em>(2)</em> Acude a mi siempre que me necesites, no dudas. <br>
+                        <em>(3)</em> Perdon por la simpleza de este regalo, pero aceptalo, por favor. <br>
+                        <em>(4)</em> Muchas gracias por ser mi mejor amiga, te amo hermanita de corazon. <br>
+                        <em>°</em> Por cierto, hice ocho "secciones" porque ese es tu numero favorito. <br>
+                    </p>
+                </div>
+
+                <div class="lovespace-footer">
+                    ( Made by Mia Sosa )
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<script>
+    function togglePlayMusic() {
+        var audio = document.getElementById('audio-xo');
+        var icon = document.getElementById('play-icon');
+
+        if (audio.paused) {
+            audio.play();
+            icon.textContent = '❚❚';
+            icon.style.paddingLeft = '0px';
+        } else {
+            audio.pause();
+            icon.textContent = '▶';
+            icon.style.paddingLeft = '2px';
+        }
+    }
+
+    function goToSlide(sectionId) {
+        const slider = document.querySelector('.main-horizontal-slider');
+        const targetSection = document.getElementById(sectionId);
+        
+        if (slider && targetSection) {
+            slider.scrollTo({
+                left: targetSection.offsetLeft,
+                behavior: 'smooth'
+            });
+        }
+    }
+</script>
+
+</body>
+</html>
